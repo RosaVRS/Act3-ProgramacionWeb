@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+img{
+    width: 150px;}
+
+body {
+    background-image: url(img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+h1 {
+    padding-top: 1%;
+    color: rgb(14, 1, 34);
+}
+
+hr {
+    color: rgb(0, 0, 0);
+}
+
+/* forms */
+form {
+    color: rgb(0, 0, 0);
+}
+
+form,
+tbody {
+    color: rgb(255, 255, 255);
+}
+
+form,
+thead {
+    color: rgb(27, 0, 43);
+}
+
+form,
+a {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+form,
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* msg */
+#negrita {
+    color: rgb(0, 0, 0);
+}
+
+/* area de texto de archivo */
+textarea {
+    color: rgb(255, 255, 255) !important;
+    resize: none;
+}
+
+/* cards */
+#card {
+    border-radius: 10px;
+}
+
+#card, p{
+    color: rgb(255, 254, 254);
+}
+
+#card img{
+    width: 60px;
+    margin: auto;
+}
+
+#card h5{
+    padding-top: 10px;
+}
